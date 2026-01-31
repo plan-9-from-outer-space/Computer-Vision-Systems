@@ -1,0 +1,19 @@
+[project]
+name = "computer-vision-systems"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel",
+    "ipywidgets",
+    "jupyterlab",
+    "matplotlib",
+    "mediapipe",
+    "opencv-python",
+    "psutil",
+    "pytesseract",
+    "roboflow",
+    "supervision",
+    "ultralytics",
+]
