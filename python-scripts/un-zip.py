@@ -23,6 +23,7 @@ def unzip_files_in_folder (input_folder_path, output_folder_path):
             print(f'Unzipped {item} to folder {new_folder_path}')
 
 if __name__ == "__main__":
-    folder_to_unzip_from = "C:\\Courses\\2026\\Udemy\\Computer-Vision-Systems\\zip-files" 
-    folder_to_unzip_to   = "C:\\Courses\\2026\\Udemy\\Computer-Vision-Systems\\datasets"
+    folder_to_unzip_from = "C:\\Computer-Vision-Systems\\zip-files" 
+    folder_to_unzip_to   = "C:\\Computer-Vision-Systems\\datasets"
     unzip_files_in_folder (folder_to_unzip_from, folder_to_unzip_to)
+
